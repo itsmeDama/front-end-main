@@ -1,0 +1,47 @@
+.container{
+  padding: 20px;
+}
+
+.heading{
+  text-align: center;
+}
+
+.labelBox{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.form{
+  padding-top: 20px;
+  background-color: bisque;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.group{
+  align-items: center;
+  padding-top: 20px;
+}
+
+.innerGroup{
+  display: flex;
+}
+
+.markSection{
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px
+}
+
+.btnBox{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.btn{
+  margin-right: 50px;
+}

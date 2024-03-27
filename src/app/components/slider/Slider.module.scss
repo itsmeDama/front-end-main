@@ -1,0 +1,41 @@
+.slider{
+  padding-top: 10px;
+  background-image: url("../../../../public/images/cardBg.jpg");
+  padding-bottom: 10px;
+}
+
+.card {
+  width: 450px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 70px;
+  font-family:sans-serif;
+}
+
+.cardHeader{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.icon{
+  font-size: 30px;
+  color: black;
+}
+
+.cardTopic{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.cardContent{
+  margin: 2px 0 0 2px;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 20px;
+ 
+  font-weight:400;
+}

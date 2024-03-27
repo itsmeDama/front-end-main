@@ -1,0 +1,71 @@
+.container{
+  background-color: white;
+}
+
+.heading{
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.dashBox{
+  display: flex;
+}
+
+.btnSection{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentSection{
+  width: 90%;
+  height: 720px;
+  background-color: oldlace;
+}
+
+.btn{
+  height: 180px;
+  background-color: rosybrown;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-color: black;
+  border-radius: 0;
+
+  &:hover{
+    background-color: #ffec99;
+    .tabIcon{
+      scale: 1.2;
+    }
+  }
+}
+
+.selectBtn{
+  height: 180px;
+  background-color: #ffec99;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-color: black;
+  border-radius: 0;
+}
+
+.tabIcon{
+  font-size: 50px;
+}

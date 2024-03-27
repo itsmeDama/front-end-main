@@ -1,0 +1,27 @@
+.container{
+  background-color: bisque;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.group{
+  display: flex;
+}
+
+.innerGroup{
+  margin-right: 30px;
+}
+
+.content{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}

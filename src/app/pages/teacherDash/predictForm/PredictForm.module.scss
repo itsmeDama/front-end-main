@@ -1,0 +1,78 @@
+.container{
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+}
+
+.inputForm{
+  width: 50%;
+}
+
+.predictCard{
+  width: 50%;
+  padding-top: 20px;
+  margin: 20px;
+  background-color: bisque;
+  border-radius: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  padding-bottom: 20px;
+}
+
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.icon{
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+.form{
+  padding-top: 20px;
+  background-color: bisque;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.group{
+  align-items: center;
+  padding-top: 20px;
+}
+
+.innerGroup{
+  display: flex;
+}
+
+.markSection{
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px
+}
+
+.btnBox{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.btn{
+  margin-right: 50px;
+}

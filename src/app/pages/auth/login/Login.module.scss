@@ -1,0 +1,95 @@
+.bgImg{
+  width: 100%;
+  height: 81.5vh;
+}
+
+.logCard{
+  position: absolute;
+  top: 8vw;
+  right: 5vw;
+  height: 650px;
+  width: 700px;
+  border: 1px solid rgba(251, 218, 100, 1);
+  background-color: rgba(245, 244, 240, 0.7);
+}
+
+.topic{
+  font-size: 65px;
+  font-weight: bold;
+  padding-left: 20px;
+  font-family: Calibri, sans-serif;
+}
+
+.signText{
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.sign{
+  color: gray;
+  cursor: pointer;
+}
+
+.form{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  margin: 0;
+}
+
+.input{
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 25px;
+
+  &:focus{
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
+
+.btn{
+  margin-left: 30px;
+  margin-top: 65px;
+  height: 50px;
+  width: 600px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(251, 220, 140, 1);
+  outline: none;
+  border-color: black;
+  color: black;
+
+  &:hover{
+    scale: 1.1;
+    background-color: rgba(251, 220, 140,1);
+  }
+}
+
+@media(max-width:768px){
+
+  .logCard{
+    
+    
+    
+    height: 250px;
+    width: 400px;
+    border: 1px solid rgba(251, 218, 100, 1);
+    background-color: rgba(245, 244, 240, 0.7);
+  }
+
+}

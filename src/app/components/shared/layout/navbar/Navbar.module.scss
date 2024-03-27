@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.btnHome {
+  margin-left: 20px;
+  font-size: 28px;
+  background-color: blue;
+  border: none;
+  color: white;
+
+  &:hover {
+    background-color: antiquewhite;
+    border-radius: 50px;
+  }
+}
+
+.btnBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnLog {
+  font-size: 24px;
+  margin-right: 20px;
+  background-color:whitesmoke;
+ border: none;
+  color: black;
+
+  &:hover {
+    background-color: blue;
+    border-radius: 10px;
+  }
+}
+
+@media(max-width:600px) {
+
+  .btnHome {
+
+    font-size: 20px;
+
+
+
+  }
+
+  
+
+  .btnLog {
+    font-size: 18px;
+    margin-right: 10px;
+    
+
+   
+  }
+
+}
